@@ -63,7 +63,7 @@ for ($i=0; $i < $iviewCount ; $i++) {
   $message .= '</table>';
   $message .= '<p>&nbsp;</p>';
   $message .= '<p>Regards,</p>';
-  $message .= '<p><i>Kumon Math and Reading Centers</i></p>';
+  $message .= '<p><i>Kumon Customer Service</i></p>';
 
   // send the email
   mail($to, $subject, $message, $headers);
